@@ -1,8 +1,8 @@
 # Data_structure
 
-Stony Brook University CSE 214 [Data Structure] Portfolio
-
-Homework Implementation into Android Application 
+    This is a portfolio of Stony Brook University CSE 214 [Data Structure]
+    
+    I have finished 6 homework implementations into android application out of 7 assignments given in Fall 2017. 
 
 
 | Assignments | Representation |
