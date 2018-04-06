@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:icon="http://schemas.android.com/apk/res-auto"
+
+    >
+
+      <item
+        android:id="@+id/display_line"
+        android:icon="@drawable/home"
+        android:title="@string/home" />
+
+
+    <item
+        android:icon="@drawable/merge"
+        android:id="@+id/merge"
+        android:title="@string/merge" />
+    <item
+        android:id="@+id/paste_to_finished"
+        android:icon="@drawable/duplicate"
+        android:title="@string/paste_to_finished" />
+
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="paste_to_finished">Paste car to finished list</string>
+    <string name="merge">Merge</string>
+    <string name="home">Home</string>
+    <string name="Select_Reality">Select Reality</string>
+    <string name="app_name">OilChangeManager
+    </string>
+
+</resources>

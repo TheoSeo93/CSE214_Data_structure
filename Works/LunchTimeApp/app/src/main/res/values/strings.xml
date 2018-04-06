@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LunchTimeApp</string>
+
+    <string name="add_student">add student</string>
+    <string name="display_line">display line</string>
+    <string name="cut_friend">cut friend</string>
+    <string name="remove_student">remove student</string>
+    <string name="update_money">update money</string>
+    <string name="serve_student">serve student</string>
+    <string name="switch_reality">switch reality</string>
+    <string name="reality_compare">reality compare</string>
+    <string name="duplicate_reality">duplicate reality</string>
+    <string name="title_activity_add_student_">AddStudent_Activity</string>
+    <string name="Select_Reality">Select Reality</string>
+</resources>

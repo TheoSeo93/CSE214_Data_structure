@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:icon="http://schemas.android.com/apk/res-auto">
+
+      <item
+        android:id="@+id/display_line"
+        android:icon="@drawable/home"
+        android:title="@string/display_line" />
+
+
+    <item
+        android:icon="@drawable/compare"
+        android:id="@+id/reality_compare"
+        android:title="Paste to finished" />
+    <item
+        android:id="@+id/duplicate_reality"
+        android:icon="@drawable/duplicate"
+        android:title="@string/duplicate_reality" />
+
+</menu>

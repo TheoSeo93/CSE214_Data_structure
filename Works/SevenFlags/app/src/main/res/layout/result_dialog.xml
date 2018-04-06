@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383839"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Result"
+        android:textAlignment="center"
+        android:textColor="#acacac"
+        android:textSize="30sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/gold_ave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="#acacac"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/silver_ave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="#acacac"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/regular_ave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="#acacac"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/bsod_times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="#acacac"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/kk_times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="#acacac"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tot_times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="#acacac"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/gf_times"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="#acacac"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/result_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHECK" />
+
+</LinearLayout>
