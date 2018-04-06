@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="welcome">Welcome to the Lunar System!</string>
+    <string name="app_name">Lunar_System</string>
+    <string name="dialog_title">Please enter webid</string>
+    <string name="text_input_error_message">Invalid input</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="normal_register">Register</string>
+    <string name="subnormal_register">Registers a student</string>
+    <string name="normal_deregister">Deregister</string>
+    <string name="subnormal_deregister">De-Registers a student</string>
+    <string name="normal_logout">Log Out</string>
+    <string name="subnormal_logout">Returns to the log in page </string>
+    <string name="normal_view_course">View Course Enrollment</string>
+    <string name="subnormal_view_course">View your courses sorted by semester</string>
+    <string name="normal_add_class">Add a Class</string>
+    <string name="subnormal_add_class">Please enter a new class</string>
+    <string name="normal_drop_class">Drop a class</string>
+    <string name="subnormal_drop_class">Touch to drop a class if you want.</string>
+    <string name="normal_view_class">View Classes sorted by department.</string>
+    <string name="subnormal_view_class">View your classes sorted by course name/department.</string>
+    <string name="normal_view_sorted">Sort by semester.</string>
+    <string name="subnormal_view_sorted">View your courses sorted by semester.</string>
+    <string name="action_settings">Settings</string>
+</resources>

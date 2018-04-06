@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:gradient="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="	#111111"
+    android:orientation="vertical"
+    tools:context="com.cse214.theo.lunar_system.MainActivity">
+
+    <io.ghyeok.stickyswitch.widget.StickySwitch
+        android:id="@+id/sticky_switch"
+        android:layout_width="171dp"
+        android:layout_height="62dp"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20dp"
+        android:elevation="0dp"
+        android:requiresFadingEdge="none|horizontal"
+        app:ss_animationDuration="450"
+        app:ss_animationType="line"
+        app:ss_iconPadding="5dp"
+        app:ss_iconSize="20dp"
+        app:ss_leftIcon="@drawable/student"
+        app:ss_leftText="ADMIN"
+        app:ss_rightIcon="@drawable/admin"
+        app:ss_rightText="STUDENT"
+        app:ss_selectedTextSize="10sp"
+        app:ss_sliderBackgroundColor="@color/dialogColor"
+        app:ss_switchColor="@color/ld_textInputError"
+        app:ss_textColor="@color/white"
+        app:ss_textSize="7sp" />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="48dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/effra"
+        android:text="LUNAR"
+        android:textColor="	#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/museo"
+            android:text="Welcome to the LUNAR System! LUNAR is Stony Brook University's enterprise-wide, self-service system which provides faculty, staff, and students with online access to manage personal information. "
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="52dp"
+            tools:layout_editor_absoluteY="131dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#9A0000"
+            android:fontFamily="@font/effra"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="LUNAR LOGIN"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/fab_exit"
+            menu_fab_size="normal"
+            menu_labels_position="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/menu_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exit"
+                app:fab_label="Exit"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/menu_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/save"
+                app:fab_label="Save and Exit"
+                app:fab_size="mini" />
+
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+    </RelativeLayout>
+
+</LinearLayout>
