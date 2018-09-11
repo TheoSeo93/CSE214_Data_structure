@@ -1,6 +1,6 @@
 # Data_structure
 
-    This is a portfolio of CSE 214 [Data Structure] from Stony Brook University
+    This is a portfolio Data Structure course.
     
     I have finished 6 homework implementations into android application out of 7 assignments given in Fall 2017. 
 
