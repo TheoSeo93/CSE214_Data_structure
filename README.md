@@ -1,6 +1,6 @@
 # Data_structure
 
-    This is a portfolio Data Structure course.
+    This is a portfolio of Data Structure course.
     
     I have finished 6 homework implementations into android application out of 7 assignments given in Fall 2017. 
 
